@@ -5,6 +5,7 @@ class User:
         self.username = username
         self.email = email
         self.password = password
+#function for registration
 
 def is_valid_email(email):
     # Use a simple regular expression to check for a valid email format
