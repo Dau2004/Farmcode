@@ -31,7 +31,7 @@ def login():
     for user in users:
         if user.username == username and user.password == password:
             print("Login successful! Welcome to the home.")
-            print("irrigate your crops, use fertililizers.")
+            print("irrigate your crops, use fertililizers, hire an agronomist.")
             return
 
     print("Invalid username or password.")
