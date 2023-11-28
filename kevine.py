@@ -23,7 +23,8 @@ def register():
     password = input("Enter your password: ")
     users.append(User(username, email, password))
     print("Registration successful! Welcome to the home.")
-
+   
+   #This  function allow user to login 
 def login():
     username = input("Enter your username: ")
     password = input("Enter your password: ")
