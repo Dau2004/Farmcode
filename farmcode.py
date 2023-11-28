@@ -40,6 +40,8 @@ def login():
 
     print("Invalid username or password.")
 
+#welcoming page
+
 users = []
 
 while True:
