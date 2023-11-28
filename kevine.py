@@ -1,5 +1,5 @@
 import re  # Import the regular expression module
-
+print("Welcome to Farmcode")
 class User:
     def __init__(self, username, email, password):
         self.username = username
