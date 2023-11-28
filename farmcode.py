@@ -5,17 +5,20 @@ class User:
         self.username = username
         self.email = email
         self.password = password
-#function for registration
+        
+#registration
 
 def is_valid_email(email):
-    # Use a simple regular expression to check for a valid email format
+    
+#regular expression to check for a valid email format
+    
     return re.match(r"[^@]+@[^@]+\.[^@]+", email) is not None
 
 def register():
     username = input("Enter your username: ")
     email = input("Enter your email address: ")
 
-    # Check if the email is valid
+# Check if the email is valid
     if not is_valid_email(email):
         print("Invalid email address format. Please enter a valid email.")
         return
@@ -24,7 +27,7 @@ def register():
     users.append(User(username, email, password))
     print("Registration successful! Welcome to the home.")
    
-   #This  function allow user to login 
+#login 
 def login():
     username = input("Enter your username: ")
     password = input("Enter your password: ")
