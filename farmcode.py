@@ -24,7 +24,7 @@ def register():
     
     # Check if the user already exists
     if check_user_exist(username):
-        print("User already exists.")
+        print("User already exists. Try logging in instead.")
         return
     
     email = input("Enter your email address: ")
