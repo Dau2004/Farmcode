@@ -23,6 +23,7 @@ def register():
     username = input("Enter your username: ")
     
     # Check if the user already exists
+    
     if check_user_exist(username):
         print("User already exists. Try logging in instead.")
         return
