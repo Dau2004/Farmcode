@@ -8,3 +8,4 @@ and ask Agronomists for help
 we have included the contacts of agronomists
 we have included the list of our products also called fertilisers  with their prices 
 at the end its the users choice
+We hope is this project the gap between the farmers.
